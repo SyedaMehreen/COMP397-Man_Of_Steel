@@ -60,11 +60,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-    <Content Include="Scripts\constants.js.map" />
-    <Content Include="Scripts\game.js.map" />
-    <Content Include="Scripts\states\gameover.js.map" />
-    <Content Include="Scripts\states\gameplay.js.map" />
-    <Content Include="Scripts\states\menu.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -92,39 +87,30 @@
     <Content Include="assets\audio\superman.mp3" />
     <Content Include="assets\images\superman.png" />
     <Content Include="css\game.css" />
-    <Content Include="Scripts\constants.js" />
-    <Content Include="Scripts\game.js" />
+    <Content Include="index.html" />
     <Content Include="Scripts\lib\easeljs-0.8.0.min.js" />
     <Content Include="Scripts\lib\preloadjs-0.6.0.min.js" />
     <Content Include="Scripts\lib\soundjs-0.6.0.min.js" />
     <Content Include="Scripts\lib\Stats.js" />
     <Content Include="Scripts\lib\tweenjs-0.6.0.min.js" />
-    <Content Include="Scripts\states\gameover.js" />
-    <Content Include="Scripts\states\gameplay.js" />
-    <Content Include="Scripts\states\menu.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="Scripts\constants.ts" />
-    <TypeScriptCompile Include="Scripts\game.ts" />
-    <TypeScriptCompile Include="Scripts\states\gameover.ts" />
-    <TypeScriptCompile Include="Scripts\states\gameplay.ts" />
-    <TypeScriptCompile Include="Scripts\states\menu.ts" />
+    <Folder Include="Scripts\objects\" />
+    <Folder Include="Scripts\states\" />
+  </ItemGroup>
+  <ItemGroup>
     <TypeScriptCompile Include="Scripts\typings\createjs-lib\createjs-lib.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\easeljs\easeljs.d.ts" />
-    <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\preloadjs\preloadjs.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\soundjs\soundjs.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\tweenjs\tweenjs.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\webaudioapi\waa.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\webrtc\MediaStream.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\webrtc\RTCPeerConnection.d.ts" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Scripts\objects\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
