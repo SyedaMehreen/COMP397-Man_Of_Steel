@@ -60,6 +60,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="Scripts\constants.js.map" />
+    <Content Include="Scripts\game.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -68,30 +70,40 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="assets\buildings1.png" />
-    <Content Include="assets\buildings2.png" />
-    <Content Include="assets\buildings3.png" />
-    <Content Include="assets\cloud_1.png" />
-    <Content Include="assets\cloud_2.png" />
-    <Content Include="assets\cloud_3.png" />
-    <Content Include="assets\cloud_4.png" />
-    <Content Include="assets\cloud_5.png" />
-    <Content Include="assets\dat-to-night.png" />
-    <Content Include="assets\kryptonite.mp3" />
-    <Content Include="assets\kryptonite.png" />
-    <Content Include="assets\playagain.png" />
-    <Content Include="assets\powerup.mp3" />
-    <Content Include="assets\s-logo.png" />
-    <Content Include="assets\start.png" />
-    <Content Include="assets\sunmoon.png" />
-    <Content Include="assets\superman.mp3" />
-    <Content Include="assets\superman.png" />
+    <Content Include="assets\images\buildings1.png" />
+    <Content Include="assets\images\buildings2.png" />
+    <Content Include="assets\images\buildings3.png" />
+    <Content Include="assets\images\cloud_1.png" />
+    <Content Include="assets\images\cloud_2.png" />
+    <Content Include="assets\images\cloud_3.png" />
+    <Content Include="assets\images\cloud_4.png" />
+    <Content Include="assets\images\cloud_5.png" />
+    <Content Include="assets\images\dat-to-night.png" />
+    <Content Include="assets\audio\kryptonite.mp3" />
+    <Content Include="assets\images\kryptonite.png" />
+    <Content Include="assets\images\playagain.png" />
+    <Content Include="assets\audio\powerup.mp3" />
+    <Content Include="assets\images\s-logo.png" />
+    <Content Include="assets\images\start.png" />
+    <Content Include="assets\images\sunmoon.png" />
+    <Content Include="assets\audio\superman.mp3" />
+    <Content Include="assets\images\superman.png" />
+    <Content Include="css\game.css" />
+    <Content Include="Scripts\constants.js" />
+    <Content Include="Scripts\game.js" />
+    <Content Include="Scripts\lib\easeljs-0.8.0.min.js" />
+    <Content Include="Scripts\lib\preloadjs-0.6.0.min.js" />
+    <Content Include="Scripts\lib\soundjs-0.6.0.min.js" />
+    <Content Include="Scripts\lib\Stats.js" />
+    <Content Include="Scripts\lib\tweenjs-0.6.0.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="Scripts\constants.ts" />
+    <TypeScriptCompile Include="Scripts\game.ts" />
     <TypeScriptCompile Include="Scripts\typings\createjs-lib\createjs-lib.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\easeljs\easeljs.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />
@@ -103,9 +115,7 @@
     <TypeScriptCompile Include="Scripts\typings\webrtc\RTCPeerConnection.d.ts" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="css\" />
-    <Folder Include="Scripts\lib\" />
-    <Folder Include="Scripts\onjects\" />
+    <Folder Include="Scripts\objects\" />
     <Folder Include="Scripts\states\" />
   </ItemGroup>
   <PropertyGroup>
